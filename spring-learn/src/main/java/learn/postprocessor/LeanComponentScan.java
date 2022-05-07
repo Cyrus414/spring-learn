@@ -24,6 +24,7 @@ public class LeanComponentScan {
 				String path = "classpath*:" + replace + "/**/*.class";
 				System.out.println(path);
 
+				// 用于获取类的元信息，该方法不使用反射，效率较高
 				CachingMetadataReaderFactory readerFactory = new CachingMetadataReaderFactory();
 
 				// 通过context获取类路径下的资源文件

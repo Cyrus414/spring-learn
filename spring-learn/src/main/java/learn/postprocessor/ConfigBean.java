@@ -14,4 +14,8 @@ class ConfigBean {
 	public Bean1 bean1() {
 		return new Bean1();
 	}
+
+	public Bean2 bean2() {
+		return new Bean2();
+	}
 }
